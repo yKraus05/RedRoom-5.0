@@ -1,9 +1,13 @@
 programa {
   inclua biblioteca Texto-->t
   funcao inicio() {
-    inteiro final1,final2
+    logico teste
+    inteiro final1,final2,numero
     cadeia introducao,op1,op1_2,op1_3,op1_4,op1_5,op1_6,op1_7,op1_8,op1_9,op1_10,op1_11
-    escreva("")
+    escreva("\nDigite sua idade para sabermos se você pode jogar o jogo:\nSe aparecer falso,significa que você não tem a idade mínima para jogar e ficará sob sua responsabilidade.\nSe aparecer verdadeiro você pode jogar livremente: ")
+    leia(numero)
+    teste = (numero>14)
+    escreva("\nResultado:", teste ,"")
     escreva("\nDesenvolvedores:Gabriel Klaumann, Lucas Francisco, Gabriel Antunes")
     escreva("\nData:24/06/2025")
     escreva("\nUnidade curricular:Lógica de Programação")
