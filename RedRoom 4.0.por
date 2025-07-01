@@ -187,7 +187,6 @@ programa {
           }senao se(final1<=12){
             escreva("\nUma bala falsa é disparada da arma...o desespero toma conta do seu corpo....mas infelizmente o seu destino é fica nesse lugar pra sempre....\nFINAL PÉSSIMO")
             escreva("\n\n")
-          }senao{
-           escreva("Escolha inválida")}
+          }
   }
 }
